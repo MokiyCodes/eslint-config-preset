@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@norathefurry/eslint-config': 1.1.0
-  eslint: ^8.11.0
+  eslint: 8.11.0
 
 devDependencies:
   '@norathefurry/eslint-config': 1.1.0_eslint@8.11.0
