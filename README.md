@@ -1,4 +1,4 @@
-# eslint-preset-example
+# eslint-config-preset
 
 Preset for https://github.com/MokiyCodes/eslint-config
 
