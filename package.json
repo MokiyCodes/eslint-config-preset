@@ -1,21 +1,10 @@
 {
   "devDependencies": {
-    "@norathefurry/eslint-config": "^1.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.14.0",
-    "@typescript-eslint/parser": "^5.14.0",
-    "eslint": "^8.11.0",
-    "eslint-plugin-prefer-arrow": "^1.2.3",
-    "typescript": "^4.6.2"
-  },
-  "peerDependencies": {
-    "@norathefurry/eslint-config": "^1.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.14.0",
-    "@typescript-eslint/parser": "^5.14.0",
-    "eslint": "^8.11.0",
-    "eslint-plugin-prefer-arrow": "^1.2.3",
-    "typescript": "^4.6.2"
+    "@norathefurry/eslint-config": "1.1.0",
+    "eslint": "^8.11.0"
   },
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
   }
 }

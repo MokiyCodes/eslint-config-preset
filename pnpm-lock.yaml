@@ -1,20 +1,12 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@norathefurry/eslint-config': ^1.0.0
-  '@typescript-eslint/eslint-plugin': ^5.14.0
-  '@typescript-eslint/parser': ^5.14.0
+  '@norathefurry/eslint-config': 1.1.0
   eslint: ^8.11.0
-  eslint-plugin-prefer-arrow: ^1.2.3
-  typescript: ^4.6.2
 
 devDependencies:
-  '@norathefurry/eslint-config': 1.0.0_d52323cb31b3799d3424cfdbd11c42c2
-  '@typescript-eslint/eslint-plugin': 5.14.0_ace6f9e7722b813e21eaf2dc993bc413
-  '@typescript-eslint/parser': 5.14.0_eslint@8.11.0+typescript@4.6.2
+  '@norathefurry/eslint-config': 1.1.0_eslint@8.11.0
   eslint: 8.11.0
-  eslint-plugin-prefer-arrow: 1.2.3_eslint@8.11.0
-  typescript: 4.6.2
 
 packages:
 
@@ -71,18 +63,27 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@norathefurry/eslint-config/1.0.0_d52323cb31b3799d3424cfdbd11c42c2:
-    resolution: {integrity: sha512-pUJ6lvt5m8D51FhEZeQWAM9zoAKs48BKmUh/x0XIC9oUd59iSktMLa1NOYu6pRwyGoCMMk2OuNqYMejesiUVxw==}
+  /@norathefurry/eslint-config-base/1.1.0_eslint@8.11.0:
+    resolution: {integrity: sha512-+al7BUawCbH8fTcWz02j7W//2LJ9gFT0vzulFMtAZQqe3uNI8A4Xidi9rCwsRkcGd0l+sL+vhr38zGOHc1BB2w==}
     peerDependencies:
-      '@typescript-eslint/eslint-plugin': ^5.14.0
-      '@typescript-eslint/parser': ^5.14.0
-      eslint: ^8.11.0
-      typescript: ^4.6.2
+      eslint: 8.11.0
     dependencies:
+      eslint: 8.11.0
+    dev: true
+
+  /@norathefurry/eslint-config/1.1.0_eslint@8.11.0:
+    resolution: {integrity: sha512-Qe4siWeXJApgF9tzQUxnITsAQc4WO+Eqdi2BMOCq6WdvezzkOGtTbRnnQ+VyQ2J8hIXUUV1NHk/EApawuHRE8g==}
+    peerDependencies:
+      eslint: 8.11.0
+    dependencies:
+      '@norathefurry/eslint-config-base': 1.1.0_eslint@8.11.0
       '@typescript-eslint/eslint-plugin': 5.14.0_ace6f9e7722b813e21eaf2dc993bc413
       '@typescript-eslint/parser': 5.14.0_eslint@8.11.0+typescript@4.6.2
       eslint: 8.11.0
+      eslint-plugin-prefer-arrow: 1.2.3_eslint@8.11.0
       typescript: 4.6.2
+    transitivePeerDependencies:
+      - supports-color
     dev: true
 
   /@types/json-schema/7.0.9:
