@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "@norathefurry/eslint-config": "1.0.0",
+    "@norathefurry/eslint-config": "1.0.1",
     "@typescript-eslint/eslint-plugin": "5.14.0",
     "@typescript-eslint/parser": "5.14.0",
     "eslint": "8.11.0",
