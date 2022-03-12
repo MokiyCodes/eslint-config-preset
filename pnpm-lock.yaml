@@ -9,7 +9,7 @@ specifiers:
   typescript: ^4.6.2
 
 devDependencies:
-  '@norathefurry/eslint-config': 1.0.0_d52323cb31b3799d3424cfdbd11c42c2
+  '@norathefurry/eslint-config': 1.0.1_b15b92a9d37c030787f50fa19e397fc2
   '@typescript-eslint/eslint-plugin': 5.14.0_ace6f9e7722b813e21eaf2dc993bc413
   '@typescript-eslint/parser': 5.14.0_eslint@8.11.0+typescript@4.6.2
   eslint: 8.11.0
@@ -71,17 +71,19 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@norathefurry/eslint-config/1.0.0_d52323cb31b3799d3424cfdbd11c42c2:
-    resolution: {integrity: sha512-pUJ6lvt5m8D51FhEZeQWAM9zoAKs48BKmUh/x0XIC9oUd59iSktMLa1NOYu6pRwyGoCMMk2OuNqYMejesiUVxw==}
+  /@norathefurry/eslint-config/1.0.1_b15b92a9d37c030787f50fa19e397fc2:
+    resolution: {integrity: sha512-xxAxCTd1fY4K8jB+U9dKN6GZ1U9PAIsnt3DBGUFUVS6n6B8KkCqy82F8lvN2DFT27wdPxpJBepXezunJnVMbKQ==}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': ^5.14.0
       '@typescript-eslint/parser': ^5.14.0
       eslint: ^8.11.0
+      eslint-plugin-prefer-arrow: ^1.2.3
       typescript: ^4.6.2
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.14.0_ace6f9e7722b813e21eaf2dc993bc413
       '@typescript-eslint/parser': 5.14.0_eslint@8.11.0+typescript@4.6.2
       eslint: 8.11.0
+      eslint-plugin-prefer-arrow: 1.2.3_eslint@8.11.0
       typescript: 4.6.2
     dev: true
 
