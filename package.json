@@ -1,5 +1,5 @@
 {
-  "name": "ESLint Config Preset",
+  "name": "@norathefurry/eslint-config-preset",
   "description": "An ESLint Config Preset",
   "license": "MIT",
   "author": "MokiyCodes <mokiy@wafflepowered.com>",
@@ -23,5 +23,6 @@
     "start": "node .",
     "test": "node ."
   },
-  "packageManager": "pnpm@6.32.3"
+  "packageManager": "pnpm@6.32.3",
+  "private": false
 }
