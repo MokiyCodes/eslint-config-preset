@@ -1,4 +1,8 @@
 {
+  "name": "ESLint Config Preset",
+  "description": "An ESLint Config Preset",
+  "license": "MIT",
+  "author": "MokiyCodes <mokiy@wafflepowered.com>",
   "devDependencies": {
     "@norathefurry/eslint-config": "1.1.1",
     "eslint": "^8.12.0"
@@ -6,5 +10,6 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix ."
-  }
+  },
+  "packageManager": "pnpm@6.32.3"
 }
