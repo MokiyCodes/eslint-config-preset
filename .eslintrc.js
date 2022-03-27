@@ -1,5 +1,7 @@
+/* eslint-disable object-curly-newline */
 module.exports = {
-  // don't bother extending eslint:recommended; @norathefurry/eslint-config already does that.
-  'extends': ['@norathefurry']
-  // your rules here
+  'extends': ['@norathefurry'], // use @norathefurry/base if you're dealing with vanilla JS
+  'rules': {
+    // your custom rules here
+  }
 };
