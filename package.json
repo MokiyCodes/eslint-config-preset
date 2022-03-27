@@ -24,5 +24,10 @@
     "test": "node ."
   },
   "packageManager": "pnpm@6.32.3",
-  "private": false
+  "private": false,
+  "targets": {
+    "main": {
+      "includeNodeModules": []
+    }
+  }
 }
