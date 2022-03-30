@@ -1122,8 +1122,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001320
-      electron-to-chromium: 1.4.96
+      caniuse-lite: 1.0.30001322
+      electron-to-chromium: 1.4.100
       escalade: 3.1.1
       node-releases: 2.0.2
       picocolors: 1.0.0
@@ -1138,8 +1138,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /caniuse-lite/1.0.30001320:
-    resolution: {integrity: sha512-MWPzG54AGdo3nWx7zHZTefseM5Y1ccM7hlQKHRqJkPozUaw3hNbBTMmLn16GG2FUzjR13Cr3NPfhIieX5PzXDA==}
+  /caniuse-lite/1.0.30001322:
+    resolution: {integrity: sha512-neRmrmIrCGuMnxGSoh+x7zYtQFFgnSY2jaomjU56sCkTA6JINqQrxutF459JpWcWRajvoyn95sOXq4Pqrnyjew==}
     dev: true
 
   /chalk/2.4.2:
@@ -1325,8 +1325,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /electron-to-chromium/1.4.96:
-    resolution: {integrity: sha512-DPNjvNGPabv6FcyjzLAN4C0psN/GgD9rSGvMTuv81SeXG/EX3mCz0wiw9N1tUEnfQXYCJi3H8M0oFPRziZh7rw==}
+  /electron-to-chromium/1.4.100:
+    resolution: {integrity: sha512-pNrSE2naf8fizl6/Uxq8UbKb8hU9EiYW4OzCYswosXoLV5NTMOUVKECNzDaHiUubsPq/kAckOzZd7zd8S8CHVw==}
     dev: true
 
   /entities/2.2.0:
