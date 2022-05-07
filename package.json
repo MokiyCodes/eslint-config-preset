@@ -23,7 +23,7 @@
     "start": "node .",
     "test": "node ."
   },
-  "packageManager": "pnpm@7.0.0",
+  "packageManager": "pnpm@7.0.1",
   "private": false,
   "targets": {
     "main": {
