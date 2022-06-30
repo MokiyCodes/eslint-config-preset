@@ -377,7 +377,7 @@ packages:
       '@parcel/workers': 2.6.2_@parcel+core@2.6.2
       abortcontroller-polyfill: 1.7.3
       base-x: 3.0.9
-      browserslist: 4.21.0
+      browserslist: 4.21.1
       clone: 2.1.2
       dotenv: 7.0.0
       dotenv-expand: 5.1.0
@@ -570,7 +570,7 @@ packages:
       '@parcel/plugin': 2.6.2_@parcel+core@2.6.2
       '@parcel/source-map': 2.0.5
       '@parcel/utils': 2.6.2
-      browserslist: 4.21.0
+      browserslist: 4.21.1
       nullthrows: 1.1.1
     transitivePeerDependencies:
       - '@parcel/core'
@@ -822,7 +822,7 @@ packages:
       '@parcel/plugin': 2.6.2_@parcel+core@2.6.2
       '@parcel/source-map': 2.0.5
       '@parcel/utils': 2.6.2
-      browserslist: 4.21.0
+      browserslist: 4.21.1
       json5: 2.2.1
       nullthrows: 1.1.1
       semver: 5.7.1
@@ -839,7 +839,7 @@ packages:
       '@parcel/plugin': 2.6.2_@parcel+core@2.6.2
       '@parcel/source-map': 2.0.5
       '@parcel/utils': 2.6.2
-      browserslist: 4.21.0
+      browserslist: 4.21.1
       nullthrows: 1.1.1
     transitivePeerDependencies:
       - '@parcel/core'
@@ -886,7 +886,7 @@ packages:
       '@parcel/utils': 2.6.2
       '@parcel/workers': 2.6.2_@parcel+core@2.6.2
       '@swc/helpers': 0.4.3
-      browserslist: 4.21.0
+      browserslist: 4.21.1
       detect-libc: 1.0.3
       nullthrows: 1.1.1
       regenerator-runtime: 0.13.9
@@ -1276,15 +1276,15 @@ packages:
       fill-range: 7.0.1
     dev: true
 
-  /browserslist/4.21.0:
-    resolution: {integrity: sha512-UQxE0DIhRB5z/zDz9iA03BOfxaN2+GQdBYH/2WrSIWEUrnpzTPJbhqt+umq6r3acaPRTW1FNTkrcp0PXgtFkvA==}
+  /browserslist/4.21.1:
+    resolution: {integrity: sha512-Nq8MFCSrnJXSc88yliwlzQe3qNe3VntIjhsArW9IJOEPSHNx23FalwApUVbzAWABLhYJJ7y8AynWI/XM8OdfjQ==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001359
-      electron-to-chromium: 1.4.171
+      caniuse-lite: 1.0.30001361
+      electron-to-chromium: 1.4.174
       node-releases: 2.0.5
-      update-browserslist-db: 1.0.4_browserslist@4.21.0
+      update-browserslist-db: 1.0.4_browserslist@4.21.1
     dev: true
 
   /buffer-from/1.1.2:
@@ -1296,8 +1296,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /caniuse-lite/1.0.30001359:
-    resolution: {integrity: sha512-Xln/BAsPzEuiVLgJ2/45IaqD9jShtk3Y33anKb4+yLwQzws3+v6odKfpgES/cDEaZMLzSChpIGdbOYtH9MyuHw==}
+  /caniuse-lite/1.0.30001361:
+    resolution: {integrity: sha512-ybhCrjNtkFji1/Wto6SSJKkWk6kZgVQsDq5QI83SafsF6FXv2JB4df9eEdH6g8sdGgqTXrFLjAxqBGgYoU3azQ==}
     dev: true
 
   /chalk/2.4.2:
@@ -1483,8 +1483,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /electron-to-chromium/1.4.171:
-    resolution: {integrity: sha512-DmVNWJlGfCYtdgyxp24Aznd7Ou6a+XBSawxODh4lc39OHdh1a49Sitw8oxwMqzzm8n9m2P93OelvIF09SOTNwA==}
+  /electron-to-chromium/1.4.174:
+    resolution: {integrity: sha512-JER+w+9MV2MBVFOXxP036bLlNOnzbYAWrWU8sNUwoOO69T3w4564WhM5H5atd8VVS8U4vpi0i0kdoYzm1NPQgQ==}
     dev: true
 
   /entities/2.2.0:
@@ -2368,13 +2368,13 @@ packages:
     hasBin: true
     dev: true
 
-  /update-browserslist-db/1.0.4_browserslist@4.21.0:
+  /update-browserslist-db/1.0.4_browserslist@4.21.1:
     resolution: {integrity: sha512-jnmO2BEGUjsMOe/Fg9u0oczOe/ppIDZPebzccl1yDWGLFP16Pa1/RM5wEoKYPG2zstNcDuAStejyxsOuKINdGA==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
     dependencies:
-      browserslist: 4.21.0
+      browserslist: 4.21.1
       escalade: 3.1.1
       picocolors: 1.0.0
     dev: true
