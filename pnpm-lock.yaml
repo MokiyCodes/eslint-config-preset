@@ -377,7 +377,7 @@ packages:
       '@parcel/workers': 2.6.2_@parcel+core@2.6.2
       abortcontroller-polyfill: 1.7.3
       base-x: 3.0.9
-      browserslist: 4.21.1
+      browserslist: 4.21.2
       clone: 2.1.2
       dotenv: 7.0.0
       dotenv-expand: 5.1.0
@@ -570,7 +570,7 @@ packages:
       '@parcel/plugin': 2.6.2_@parcel+core@2.6.2
       '@parcel/source-map': 2.1.0
       '@parcel/utils': 2.6.2
-      browserslist: 4.21.1
+      browserslist: 4.21.2
       nullthrows: 1.1.1
     transitivePeerDependencies:
       - '@parcel/core'
@@ -630,7 +630,7 @@ packages:
       '@parcel/source-map': 2.1.0
       '@parcel/utils': 2.6.2
       nullthrows: 1.1.1
-      terser: 5.14.1
+      terser: 5.14.2
     transitivePeerDependencies:
       - '@parcel/core'
     dev: true
@@ -822,7 +822,7 @@ packages:
       '@parcel/plugin': 2.6.2_@parcel+core@2.6.2
       '@parcel/source-map': 2.1.0
       '@parcel/utils': 2.6.2
-      browserslist: 4.21.1
+      browserslist: 4.21.2
       json5: 2.2.1
       nullthrows: 1.1.1
       semver: 5.7.1
@@ -839,7 +839,7 @@ packages:
       '@parcel/plugin': 2.6.2_@parcel+core@2.6.2
       '@parcel/source-map': 2.1.0
       '@parcel/utils': 2.6.2
-      browserslist: 4.21.1
+      browserslist: 4.21.2
       nullthrows: 1.1.1
     transitivePeerDependencies:
       - '@parcel/core'
@@ -886,7 +886,7 @@ packages:
       '@parcel/utils': 2.6.2
       '@parcel/workers': 2.6.2_@parcel+core@2.6.2
       '@swc/helpers': 0.4.3
-      browserslist: 4.21.1
+      browserslist: 4.21.2
       detect-libc: 1.0.3
       nullthrows: 1.1.1
       regenerator-runtime: 0.13.9
@@ -1276,15 +1276,15 @@ packages:
       fill-range: 7.0.1
     dev: true
 
-  /browserslist/4.21.1:
-    resolution: {integrity: sha512-Nq8MFCSrnJXSc88yliwlzQe3qNe3VntIjhsArW9IJOEPSHNx23FalwApUVbzAWABLhYJJ7y8AynWI/XM8OdfjQ==}
+  /browserslist/4.21.2:
+    resolution: {integrity: sha512-MonuOgAtUB46uP5CezYbRaYKBNt2LxP0yX+Pmj4LkcDFGkn9Cbpi83d9sCjwQDErXsIJSzY5oKGDbgOlF/LPAA==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001365
-      electron-to-chromium: 1.4.187
+      caniuse-lite: 1.0.30001366
+      electron-to-chromium: 1.4.189
       node-releases: 2.0.6
-      update-browserslist-db: 1.0.4_browserslist@4.21.1
+      update-browserslist-db: 1.0.4_browserslist@4.21.2
     dev: true
 
   /buffer-from/1.1.2:
@@ -1296,8 +1296,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /caniuse-lite/1.0.30001365:
-    resolution: {integrity: sha512-VDQZ8OtpuIPMBA4YYvZXECtXbddMCUFJk1qu8Mqxfm/SZJNSr1cy4IuLCOL7RJ/YASrvJcYg1Zh+UEUQ5m6z8Q==}
+  /caniuse-lite/1.0.30001366:
+    resolution: {integrity: sha512-yy7XLWCubDobokgzudpkKux8e0UOOnLHE6mlNJBzT3lZJz6s5atSEzjoL+fsCPkI0G8MP5uVdDx1ur/fXEWkZA==}
     dev: true
 
   /chalk/2.4.2:
@@ -1483,8 +1483,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /electron-to-chromium/1.4.187:
-    resolution: {integrity: sha512-t3iFLHVIMhB8jGZ+8ui951nz6Bna5qKfhxezG3wzXdBJ79qFKPsE2chjjVFNqC1ewhfrPQrw9pmVeo4FFpZeQA==}
+  /electron-to-chromium/1.4.189:
+    resolution: {integrity: sha512-dQ6Zn4ll2NofGtxPXaDfY2laIa6NyCQdqXYHdwH90GJQW0LpJJib0ZU/ERtbb0XkBEmUD2eJtagbOie3pdMiPg==}
     dev: true
 
   /entities/2.2.0:
@@ -2306,8 +2306,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /terser/5.14.1:
-    resolution: {integrity: sha512-+ahUAE+iheqBTDxXhTisdA8hgvbEG1hHOQ9xmNjeUJSoi6DU/gMrKNcfZjHkyY6Alnuyc+ikYJaxxfHkT3+WuQ==}
+  /terser/5.14.2:
+    resolution: {integrity: sha512-oL0rGeM/WFQCUd0y2QrWxYnq7tfSuKBiqTjRPWrRgB46WD/kiwHwF8T23z78H6Q6kGCuuHcPB+KULHRdxvVGQA==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -2368,13 +2368,13 @@ packages:
     hasBin: true
     dev: true
 
-  /update-browserslist-db/1.0.4_browserslist@4.21.1:
+  /update-browserslist-db/1.0.4_browserslist@4.21.2:
     resolution: {integrity: sha512-jnmO2BEGUjsMOe/Fg9u0oczOe/ppIDZPebzccl1yDWGLFP16Pa1/RM5wEoKYPG2zstNcDuAStejyxsOuKINdGA==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
     dependencies:
-      browserslist: 4.21.1
+      browserslist: 4.21.2
       escalade: 3.1.1
       picocolors: 1.0.0
     dev: true
